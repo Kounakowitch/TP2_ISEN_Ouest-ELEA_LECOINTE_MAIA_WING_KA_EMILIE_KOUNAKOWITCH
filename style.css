@@ -190,3 +190,10 @@ body {
     margin-bottom: 15px;
 }
 
+.block-image img {
+  max-width: 520px;   /* ajuste si tu veux plus/moins grand */
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
