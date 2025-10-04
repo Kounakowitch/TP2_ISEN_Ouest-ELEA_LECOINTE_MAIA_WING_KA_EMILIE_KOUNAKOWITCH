@@ -190,3 +190,15 @@ body {
     margin-bottom: 15px;
 }
 
+.block-image {
+  flex: 0 0 420px;      
+  display: flex;
+  justify-content: center;
+}
+
+.block-image img {
+  width: 100%;
+  max-width: 420px;     
+  height: auto;
+  border-radius: 6px;
+}
