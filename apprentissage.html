@@ -8,15 +8,23 @@
 <body>
 
 <!-- HEADER_FINAL -->
-<header>
-    <h1>ISEN Ouest - Formation Ingénieur</h1>
-    <nav>
-        <a href="index.html">Accueil</a> |
-        <a href="apprentissage.html">Apprentissage</a> |
-        <a href="postbac.html">Post-bac</a> |
-        <a href="formations.html">Formations</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
+<header class="header-isen">
+    <div class="header-container">
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/logo-isen.png" alt="Logo ISEN Ouest">
+            </a>
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apprentissage.html">Apprentissage</a></li>
+                <li><a href="postbac.html">Post-bac</a></li>
+                <li><a href="formations.html">Formations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <!-- BREADCRUMPS -->
@@ -37,7 +45,9 @@
 <!-- PLUGGIN IMAGES -->
 <section class="images-dp">
     <h2>Galerie Apprentissage</h2>
-    <p>Découvrez des images du cycle ingénieur en alternance sur le site <a href="https://isen-ouest.fr/ecole-ingenieur/devenir-ingenieur/ingenieur-alternance/" target="_blank">ISEN Ouest</a>.</p>
+    <p>Découvrez des images du cycle ingénieur en alternance sur le site 
+        <a href="https://isen-ouest.fr/ecole-ingenieur/devenir-ingenieur/ingenieur-alternance/" target="_blank">ISEN Ouest</a>.
+    </p>
     <div class="image-grid">
         <img src="images/apprentissage1.jpg" alt="Image 1">
         <img src="images/apprentissage2.jpg" alt="Image 2">
@@ -51,10 +61,15 @@
 </section>
 
 <!-- FOOTER_SIMPLE -->
-<footer>
-    <p>&copy; 2025 ISEN Ouest - Tous droits réservés</p>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-col-logo">
+            <img src="images/logo-isen.png" alt="ISEN Ouest" class="footer-logo">
+            <a href="contact.html" class="btn-contact">Nous contacter</a>
+        </div>
+        <p>&copy; 2025 ISEN Ouest - Tous droits réservés</p>
+    </div>
 </footer>
 
 </body>
 </html>
-
